@@ -11,10 +11,10 @@ import android.widget.TextView;
 import com.example.n11demo04.R;
 
 public class CustomAdapter extends BaseAdapter {
-    Context context;
-    int images[];
-    String stringsList[];
-    LayoutInflater inflater;
+    private Context context;
+    private int images[];
+    private String stringsList[];
+    private LayoutInflater inflater;
 
     public CustomAdapter(Context context, int[] images, String[] stringsList) {
         this.context = context;
